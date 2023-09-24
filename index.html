@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <inner-column class="header">
+            <div class="logo">Header Logo</div>
+            <div class="links">
+                <ul>
+                    <li><a href="#">header link one</a></li>
+                    <li><a href="#">header link two</a></li>
+                    <li><a href="#">header link three</a></li>
+                </ul>
+        </div>
+        </inner-column>
+    </header>
+    <main>
+        <section class="firstSection">
+            <inner-column>
+                <reusable-component>
+                    <div class="right-content">
+                        <picture>
+                            <img src="image.jpeg" class="empty">
+                        </picture>
+                    </div>
+                    <div class="left-content">
+                        <h1>This website is awesome</h1>
+                        <p>This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast.</p>
+                        <button>Sign up</button>
+                    </div>
+                </reusable-component>
+            </inner-column>
+        </section>
+        <section class="products">
+            <inner-column>
+                <product-grid>
+                    <div class="random-information">Some random information</div>
+                    <div class="container">
+                     <div class="info">
+                       <img src="barberry.png" alt="barberry" class="imgs">
+                       <div class="text">This is a type of plant. We love this one.</div>
+                     </div>
+                     <div class="info">
+                       <img src="chilli.png" alt="chili" class="imgs">
+                       <div class="text">This is another type of plant. Isn't it nice?</div>
+                     </div>
+                     <div class="info">
+                       <img src="pepper.png" alt="pepper" class="imgs">
+                       <div class="text">We have so many plants. Yay plants.</div>
+                     </div>
+                     <div class="info">
+                       <img src="saffron.png" alt="saffron" class="imgs">
+                       <div class="text">I'm running out of things to say about plants.</div>
+                     </div>
+                   </div>
+                </product-grid>
+            </inner-column>
+        </section>
+        <section class="third">
+            <inner-column>
+                <quote-column>
+                    <div class="quote">This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.</div>
+                    <div class="author">-Thor, God of Thunder</div>
+                </quote-column>
+            </inner-column>
+        </section>
+        <section class="callToAction">
+            <inner-column>
+                <card-section>
+                    <div class="card">
+                        <div class="left">
+                            <h1>Call to Action! It's time!</h1>
+                            <h3>Sign up for our product by clicking that button right over there!</h3>
+                        </div>
+                        <div class="right">
+                            <button class="buttonRight">Sign up</button>
+                        </div>
+                    </div>
+                </card-section>
+            </inner-column>
+        </section>
+    </main>
+    <footer>
+        <inner-column>
+            <div class="footer">Copyright @ The Odin Project 2021</div>
+        </inner-column>
+    </footer>
+</body>
+</html>
